@@ -1,0 +1,17 @@
+test_comments_results:
+  window reload:
+    correctly_guessed:
+    - reload
+    incorrectly_guessed:
+    - 'reload this window: please, go view, bar explore, bar extensions, bar outline,
+      bar run, bar search, bar source, bar test, or bar switch'
+    - 'refresh the window: refresh the window'
+    - 'update what''s on the window: please'
+test_no_comments_results:
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
