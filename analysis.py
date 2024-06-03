@@ -1,9 +1,6 @@
 import yaml
 import matplotlib.pyplot as plt
-
-# Load the results YAML file
-with open('test_results.yaml', 'r') as file:
-    test_results = yaml.safe_load(file)
+import argparse
 
 def calculate_percentage(test_results):
     percentages = {}
@@ -36,8 +33,21 @@ def plot_percentages(percentages):
     plt.ylim(0, 100)
     plt.show()
 
-# Calculate percentages for all tests in the results file
-percentages = calculate_percentage(test_results)
-print(percentages)
-# Plot the percentages
-plot_percentages(percentages)
+def main():
+    parser = argparse.ArgumentParser(description="Process the results YAML file.")
+    parser.add_argument('file_path', type=str, help='Path to the YAML file containing the test results')
+    args = parser.parse_args()
+    file_path = args.file_path
+
+    # Load the results YAML file
+    with open(file_path, 'r') as file:
+        test_results = yaml.safe_load(file)
+
+    # Calculate percentages for all tests in the results file
+    percentages = calculate_percentage(test_results)
+    print(percentages)
+    # Plot the percentages
+    plot_percentages(percentages)
+
+if __name__ == "__main__":
+    main()
