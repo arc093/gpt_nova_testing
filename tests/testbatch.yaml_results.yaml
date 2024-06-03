@@ -1,0 +1,234 @@
+full_length_talon_file_results:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt, file hunt pace, file hunt, file hunt
+      pace, file copy name, file copy path, file copy local path, file create sibling,
+      file create, file create root, file rename, file move, file clone, file delete,
+      file open folder'
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: app: vscode'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug'
+    - 'debug window: window reload, window close'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: search'
+    - 'help me find: go view, go recent, file hunt'
+    - 'search in vscode: search in vscode'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    incorrectly_guessed:
+    - 'show the git panel: git status'
+    - 'source: Please, window close'
+    - 'switch to the source view: go view, bar switch'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    incorrectly_guessed:
+    - 'bar show: bar show'
+    - 'bar hide: window reload'
+    - 'bar display: window reload'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: test run all, test run, test run last, test run failed,
+      test debug all'
+    - 'Show the testing window: test run all or test run: user.vscode("testing.runAll")'
+    - 'Open testing: test run or test run file'
+    - 'Show the tests: test run, test run file, test run all, test run failed, test
+      run last, test debug, test debug file, test debug all, test debug failed, test
+      debug last'
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: window reload'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+medium_length_talon_file_results:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show settings folder, show settings folder json,
+      show settings workspace, show settings workspace json, show snippets'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: show settings folder, show settings folder json'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug'
+    - 'debug window: debug window'
+    - 'run window: run window'
+  bar search:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'search: search'
+    - 'open the search: open the search'
+    - 'help me find: help me find'
+    - 'search in vscode: search in vscode'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    incorrectly_guessed:
+    - 'show the git panel: show the git panel'
+    - 'source: source'
+    - 'switch to the source view: window close'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    incorrectly_guessed:
+    - 'bar show: window reload'
+    - 'bar hide: window close'
+    - 'bar display: bar display'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    incorrectly_guessed:
+    - 'Show the testing window: go view testing window'
+    - 'Open testing: go view testing'
+    - 'Show the tests: bar explore'
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    incorrectly_guessed:
+    - 'exit out of this window: I''m sorry, I couldn''t find a likely command based
+      on your input.'
+    - 'exit: Please show settings or show settings json'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    incorrectly_guessed:
+    - 'update what''s on the window: update what''s on the window'
+simplified_talon_file_results:
+  bar explore:
+    correctly_guessed:
+    - Show me the files in VS code
+    - Explore bar
+    incorrectly_guessed:
+    - 'show the file explorer: please, go view, bar explore, bar extensions, bar outline,
+      bar run, bar search, bar source, bar test, or bar switch'
+    - 'Explore files: Explore files'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - On the side panel, click the extensions
+    incorrectly_guessed:
+    - 'Show all the extensions: please, go view, bar extensions'
+    - 'On the side bar, click the extensions: On the side bar, click the extensions'
+  bar outline:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the outline: show the outline'
+  bar run:
+    correctly_guessed:
+    - on the side bar, show debug
+    incorrectly_guessed:
+    - 'show the debug panel: show the debug panel'
+    - 'debug: please, go view, bar explore, bar extensions, bar outline, bar run,
+      bar search, bar source, bar test, bar switch'
+    - 'debug window: Please, go view <desired view>'
+    - 'run window: please, go view, bar explore, bar extensions, bar outline, bar
+      run, bar search, bar source, bar test, bar switch'
+  bar search:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'search: search'
+    - 'open the search: open the search'
+    - 'help me find: help me find'
+    - 'search in vscode: search in vscode'
+  bar source:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the git panel: please, go view, bar explore, bar extensions, bar outline,
+      bar run, bar search, bar source, bar test, bar switch'
+    - 'show the source management: Please show the source management'
+    - 'source: please'
+    - 'switch to the source view: switch to the source view'
+  bar switch:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Hide the sidebar: please, go view, bar explore, bar extensions, bar outline,
+      bar run, bar search, bar source, bar test, bar switch'
+    - 'Show the sidebar: please, go view, bar explore, bar extensions, bar outline,
+      bar run, bar search, bar source, bar test, bar switch'
+    - 'Toggle the sidebar: Toggle the sidebar'
+    - 'bar show: please, go view, bar explore, bar extensions, bar outline, bar run,
+      bar search, bar source, bar test, bar switch'
+    - 'bar hide: Please, go view <a specific view>'
+    - 'bar display: Please, go view <user.text>'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: please, go view, bar explore, bar extensions, bar
+      outline, bar run, bar search, bar source, bar test, or bar switch'
+    - 'Show the testing window: Please, go view testing window'
+    - 'Open testing: please, go view, bar explore, bar extensions, bar outline, bar
+      run, bar search, bar source, bar test, or bar switch'
+    - 'Show the tests: please, go view, bar explore, bar extensions, bar outline,
+      bar run, bar search, bar source, bar test, bar switch'
+  window close:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'close this window: please, go view, bar explore, bar extensions, bar outline,
+      bar run, bar search, bar source, bar test, bar switch'
+    - 'close: please, go view <view_name>, bar explore, bar extensions, bar outline,
+      bar run, bar search, bar source, bar test, bar switch'
+    - 'exit out of this window: Please, go view <view name>'
+    - 'exit: Please, go view <view name>'
+  window reload:
+    correctly_guessed:
+    - reload
+    incorrectly_guessed:
+    - 'reload this window: please, go view, window reload'
+    - 'refresh the window: refresh the window'
+    - 'update what''s on the window: Please, Bar Explore, Bar Extensions, Bar Outline,
+      Bar Run, Bar Search, Bar Source, Bar Test, or Bar Switch'

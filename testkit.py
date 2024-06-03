@@ -104,7 +104,7 @@ def main():
                     correctly_guessed = []
                     incorrectly_guessed = []
                     for spoken_form in spoken_forms:
-                        time.sleep(0.1)
+                        time.sleep(2)
                         pbar.update(1)
                         result = gpt_query(prompt, spoken_form, model_settings)
                         if result == intended_command:
