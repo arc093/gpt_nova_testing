@@ -17,22 +17,31 @@ def gpt_query(prompt: str, content: str, model_settings: dict) -> str:
 
     headers, data = generate_payload(prompt, content, model_settings)
 
-    response = requests.post(url, headers=headers, data=json.dumps(data))
+    max_retries = 5
+    backoff_factor = 0.1
 
-    match response.status_code:
-        case 200:
-            # notify("GPT Task Completed")
-            return response.json()["choices"][0]["message"]["content"].strip()
-        case _:
-            print("GPT Failure: Check the Talon Log")
-            raise Exception(response.json())
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(url, headers=headers, data=json.dumps(data))
+
+            if response.status_code == 200:
+                return response.json()["choices"][0]["message"]["content"].strip()
+            else:
+                print("GPT Failure: Check the Talon Log")
+                raise Exception(response.json())
+
+        except requests.exceptions.ConnectionError as e:
+            if attempt < max_retries - 1:
+                sleep_time = backoff_factor * (2 ** attempt)
+                print(f"Connection error: {e}. Retrying in {sleep_time} seconds...")
+                time.sleep(sleep_time)
+            else:
+                raise
 
 def generate_payload(prompt: str, content: str, model_settings: dict) -> Tuple[Headers, Data]:
     """Generate the headers and data for the OpenAI API GPT request.
     Does not return the URL given the fact not all openai-compatible endpoints support new features like tools
     """
-    # notify("GPT Task Started")
-
     TOKEN = get_token()
 
     headers = {
@@ -72,9 +81,7 @@ def get_command_list(test: dict) -> str:
         talon_path = os.getcwd() + talon_path
         if os.path.exists(talon_path):
             with open(talon_path, 'r') as talon_file:
-                # Read the contents of the talon file
                 talon_content = talon_file.read()
-                # Concatenate the contents to command_list
                 command_list += talon_content + "\n"
         else:
             print(f"Warning: {talon_path} does not exist.")
@@ -87,39 +94,59 @@ def main():
     file_path = args.file_path
     file_name = os.path.basename(file_path)
 
-    # run the tests
+    # Ensure the subdirectory exists
+    subdirectory = "tests"
+    os.makedirs(subdirectory, exist_ok=True)
+
+    # Run the tests
     with open(file_path, 'r') as file:
         tests = yaml.safe_load(file)
-        total_commands = sum(len(spoken_forms) for test in tests.values() for spoken_forms in test["test_commands"].values())
-        print(total_commands)
+        total_commands = sum(
+            len(spoken_forms) * test["runs"]
+            for test in tests.values()
+            for spoken_forms in test["test_commands"].values()
+        )
 
         with tqdm(total=total_commands, desc="Testing commands! :)") as pbar:
             results = {}
             for test_name, test in tests.items():
-                command_list = get_command_list(test)
-                model_settings = test["model_settings"]
-                prompt = model_settings["model_prompt"] + f"{command_list}"
-                results[f"{test_name}_results"] = {}
-                for intended_command, spoken_forms in test["test_commands"].items():
-                    correctly_guessed = []
-                    incorrectly_guessed = []
-                    for spoken_form in spoken_forms:
-                        time.sleep(2)
-                        pbar.update(1)
-                        result = gpt_query(prompt, spoken_form, model_settings)
-                        if result == intended_command:
-                            correctly_guessed.append(spoken_form)
-                        else:
-                            incorrectly_guessed.append(f"{spoken_form}: {result}")
-                    results[f"{test_name}_results"][intended_command] = {
-                        "correctly_guessed": correctly_guessed,
-                        "incorrectly_guessed": incorrectly_guessed
-                    }
-            # Write the results to a YAML file
-            with open(f'tests/{file_name}_results.yaml', 'w') as outfile:
+                runs = test["runs"]
+                for run in range(runs):
+                    command_list = get_command_list(test)
+                    model_settings = test["model_settings"]
+                    prompt = model_settings["model_prompt"] + f"{command_list}"
+                    results[f"{test_name}_results_run{run}"] = {}
+                    sleep_time = 0.1  # Initial sleep time
+                    for intended_command, spoken_forms in test["test_commands"].items():
+                        correctly_guessed = []
+                        incorrectly_guessed = []
+                        for spoken_form in spoken_forms:
+                            time.sleep(sleep_time)
+                            pbar.update(1)
+                            try:
+                                result = gpt_query(prompt, spoken_form, model_settings)
+                                if result == intended_command:
+                                    correctly_guessed.append(spoken_form)
+                                    sleep_time = max(0.1, sleep_time / 2)  # Decrease sleep time if successful
+                                else:
+                                    incorrectly_guessed.append(f"{spoken_form}: {result}")
+                                    sleep_time = min(10, sleep_time * 2)  # Increase sleep time if incorrect
+                            except requests.exceptions.ConnectionError as e:
+                                print(f"Error: {e}")
+                                sleep_time = min(10, sleep_time * 2)  # Increase sleep time on error
+                                incorrectly_guessed.append(f"{spoken_form}: Connection error")
+
+                        results[f"{test_name}_results_run{run}"][intended_command] = {
+                            "correctly_guessed": correctly_guessed,
+                            "incorrectly_guessed": incorrectly_guessed
+                        }
+
+            # Write the results to a YAML file in the subdirectory
+            output_file_path = os.path.join(subdirectory, f"{file_name}_results.yaml")
+            with open(output_file_path, 'w') as outfile:
                 yaml.dump(results, outfile, default_flow_style=False)
 
-            print(f"Results have been written to {file_path}_results.yaml")
+            print(f"Results have been written to {output_file_path}")
 
 if __name__ == "__main__":
     main()

@@ -1,13 +1,31 @@
-test_comments_results:
+test_comments_results_run0:
   window reload:
     correctly_guessed:
     - reload
+    - refresh the window
     incorrectly_guessed:
-    - 'reload this window: please, go view, bar explore, bar extensions, bar outline,
+    - 'reload this window: please, go view bar explore, bar extensions, bar outline,
       bar run, bar search, bar source, bar test, or bar switch'
-    - 'refresh the window: refresh the window'
-    - 'update what''s on the window: please'
-test_no_comments_results:
+    - 'update what''s on the window: please, go view, bar explore, bar extensions,
+      bar outline, bar run, bar search, bar source, bar test, bar switch'
+test_comments_results_run1:
+  window reload:
+    correctly_guessed:
+    - reload
+    - refresh the window
+    incorrectly_guessed:
+    - 'reload this window: please, go view bar explore, bar extensions, bar outline,
+      bar run, bar search, bar source, bar test, or bar switch'
+    - 'update what''s on the window: window reload, window close'
+test_no_comments_results_run0:
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+test_no_comments_results_run1:
   window reload:
     correctly_guessed:
     - reload

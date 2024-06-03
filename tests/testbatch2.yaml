@@ -1,6 +1,7 @@
 test_no_comments: 
     talon_paths: 
         - /vscode.talon
+    runs: 2
     model_settings:
         openai_model: "gpt-3.5-turbo"
         model_endpoint: "https://api.openai.com/v1/chat/completions"
@@ -33,6 +34,7 @@ test_no_comments:
 test_comments: 
     talon_paths: 
         - /vscode_minimal.talon
+    runs: 2
     model_settings:
         openai_model: "gpt-3.5-turbo"
         model_endpoint: "https://api.openai.com/v1/chat/completions"
