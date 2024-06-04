@@ -14,6 +14,7 @@ go view [<user.text>]:
     insert(user.text or "")
 
 # Sidebar
+#opens the file explorer section of the side panel/bar which allows the user to browse the file tree of the current project
 bar explore: user.vscode("workbench.view.explorer")
 bar extensions: user.vscode("workbench.view.extensions")
 bar outline: user.vscode("outline.focus")

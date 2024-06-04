@@ -1,6 +1,7 @@
 full_length_talon_file: 
     talon_paths: 
         - /vscode.talon
+    runs: 3
     model_settings:
         openai_model: "gpt-3.5-turbo"
         model_endpoint: "https://api.openai.com/v1/chat/completions"
@@ -76,6 +77,7 @@ full_length_talon_file:
 medium_length_talon_file: 
     talon_paths: 
         - /vscode_medium.talon
+    runs: 3
     model_settings:
         openai_model: "gpt-3.5-turbo"
         model_endpoint: "https://api.openai.com/v1/chat/completions"
@@ -152,6 +154,7 @@ medium_length_talon_file:
 simplified_talon_file: 
     talon_paths: 
         - /vscode_minimal.talon
+    runs: 3
     model_settings:
         openai_model: "gpt-3.5-turbo"
         model_endpoint: "https://api.openai.com/v1/chat/completions"
