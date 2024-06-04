@@ -1,0 +1,650 @@
+temp_0: 
+    talon_paths: 
+        - /vscode.talon
+        - /help.talon
+        - /edit.talon
+    runs: 3
+    model_settings:
+        openai_model: "gpt-3.5-turbo"
+        model_endpoint: "https://api.openai.com/v1/chat/completions"
+        model_temperature: 0
+        model_system_prompt: 
+            "You are being integraded into a voice command software. Your task is to take 
+            the user's raw speech to text strings and compare them to available commands to find the
+            most likely command that the user was asking for. The commands come in a .yaml file. 
+            The possible commands are formatted as:
+            spoken form: action. There may be multiple spoken forms surrounded by ( ), seperated by |, and the action may
+            include several written forms or python commands. Also, the spoken form may include open ended 
+            tags where user dication would be inserted which could look like this: nova <user.text>$:
+            result = user.command_match(text)
+            user.nova_hide()
+            user.nova_show(result) . If there is an open ended tag, make sure to put whatever recommened text for the user to say in <>. 
+            Also note that there are sometimes comments noted with # that may provide aditional context for the block of commands below them.
+            Your task is to simply return the most likely command (just the spoken form of the command only, nothing else). If it seems
+            like there may be several likely options, you can return several options, seperated by ', or' "
+        model_prompt:
+            "Respond with the most likely command, no other text. Here is a list of the possible commands:"
+    test_commands: 
+        window reload: 
+            - reload
+            - reload this window
+            - refresh the window 
+            - update what's on the window
+        window close:
+            - close this window
+            - close
+            - exit out of this window
+            - exit
+        bar explore:
+            - show the file explorer
+            - Show me the files in VS code
+            - Explore bar
+            - Explore files
+        bar extensions: 
+            - Show me the extension store
+            - Show all the extensions
+            - On the side panel, click the extensions
+            - On the side bar, click the extensions
+        bar outline: 
+            - show the outline
+        bar run: 
+            - show the debug panel
+            - on the side bar, show debug
+            - debug 
+            - debug window
+            - run window
+        bar search: 
+            - search
+            - open the search
+            - help me find
+            - search in vscode
+        bar source:
+            - show the git panel
+            - show the source management 
+            - source
+            - switch to the source view
+        bar test: 
+            - Focus the testing panel
+            - Show the testing window
+            - Open testing
+            - Show the tests
+        bar switch: 
+            - Hide the sidebar
+            - Show the sidebar
+            - Toggle the sidebar
+            - bar show
+            - bar hide
+            - bar display 
+        zoom in:
+            - zoom
+            - make the items on the display bigger
+        go word left:
+            - go one word to the left
+            - move the curser one word left
+        go down:
+            - go down a line
+            - move the cursor down
+        go line end:
+            - move the cursor to the end of the line
+            - go to the end of this line
+        go way down:
+            - move the cursor to the bottom of the page
+            - go to the bottom of the text
+        select all:
+            - select all text
+            - select everything
+        clear line:
+            - delete this line
+            - clear the line
+            - wipe the line
+        clear way down:
+            - delete everything below the cursor
+            - delete everything down to the bottom of the page
+        copy that:
+            - copy my selection
+            - copy
+            - control copy
+        cut word:
+            - cut this word
+        clone that:
+            - copy and paste my selection
+            - duplicate my selection
+        undo that:
+            - undo
+            - undo what i just did
+        file save:
+            - save the file
+            - save
+        help alphabet:
+            - show me the names for the letters
+            - help me find the alphabet
+            - talon's alphabet
+        help arrows:
+            - commands for arrow keys
+            - show list of arrow keys
+            - show talon files for arrow keys
+        help modifier: 
+            - show the help dialog for control and command keys
+            - help me with modifier keys
+            - commands for modifiers
+
+temp_25: 
+    talon_paths: 
+        - /vscode.talon
+        - /help.talon
+        - /edit.talon
+    runs: 3
+    model_settings:
+        openai_model: "gpt-3.5-turbo"
+        model_endpoint: "https://api.openai.com/v1/chat/completions"
+        model_temperature: 0.25
+        model_system_prompt: 
+            "You are being integraded into a voice command software. Your task is to take 
+            the user's raw speech to text strings and compare them to available commands to find the
+            most likely command that the user was asking for. The commands come in a .yaml file. 
+            The possible commands are formatted as:
+            spoken form: action. There may be multiple spoken forms surrounded by ( ), seperated by |, and the action may
+            include several written forms or python commands. Also, the spoken form may include open ended 
+            tags where user dication would be inserted which could look like this: nova <user.text>$:
+            result = user.command_match(text)
+            user.nova_hide()
+            user.nova_show(result) . If there is an open ended tag, make sure to put whatever recommened text for the user to say in <>. 
+            Also note that there are sometimes comments noted with # that may provide aditional context for the block of commands below them.
+            Your task is to simply return the most likely command (just the spoken form of the command only, nothing else). If it seems
+            like there may be several likely options, you can return several options, seperated by ', or' "
+        model_prompt:
+            "Respond with the most likely command, no other text. Here is a list of the possible commands:"
+    test_commands: 
+        window reload: 
+            - reload
+            - reload this window
+            - refresh the window 
+            - update what's on the window
+        window close:
+            - close this window
+            - close
+            - exit out of this window
+            - exit
+        bar explore:
+            - show the file explorer
+            - Show me the files in VS code
+            - Explore bar
+            - Explore files
+        bar extensions: 
+            - Show me the extension store
+            - Show all the extensions
+            - On the side panel, click the extensions
+            - On the side bar, click the extensions
+        bar outline: 
+            - show the outline
+        bar run: 
+            - show the debug panel
+            - on the side bar, show debug
+            - debug 
+            - debug window
+            - run window
+        bar search: 
+            - search
+            - open the search
+            - help me find
+            - search in vscode
+        bar source:
+            - show the git panel
+            - show the source management 
+            - source
+            - switch to the source view
+        bar test: 
+            - Focus the testing panel
+            - Show the testing window
+            - Open testing
+            - Show the tests
+        bar switch: 
+            - Hide the sidebar
+            - Show the sidebar
+            - Toggle the sidebar
+            - bar show
+            - bar hide
+            - bar display 
+        zoom in:
+            - zoom
+            - make the items on the display bigger
+        go word left:
+            - go one word to the left
+            - move the curser one word left
+        go down:
+            - go down a line
+            - move the cursor down
+        go line end:
+            - move the cursor to the end of the line
+            - go to the end of this line
+        go way down:
+            - move the cursor to the bottom of the page
+            - go to the bottom of the text
+        select all:
+            - select all text
+            - select everything
+        clear line:
+            - delete this line
+            - clear the line
+            - wipe the line
+        clear way down:
+            - delete everything below the cursor
+            - delete everything down to the bottom of the page
+        copy that:
+            - copy my selection
+            - copy
+            - control copy
+        cut word:
+            - cut this word
+        clone that:
+            - copy and paste my selection
+            - duplicate my selection
+        undo that:
+            - undo
+            - undo what i just did
+        file save:
+            - save the file
+            - save
+        help alphabet:
+            - show me the names for the letters
+            - help me find the alphabet
+            - talon's alphabet
+        help arrows:
+            - commands for arrow keys
+            - show list of arrow keys
+            - show talon files for arrow keys
+        help modifier: 
+            - show the help dialog for control and command keys
+            - help me with modifier keys
+            - commands for modifiers
+
+temp_50: 
+    talon_paths: 
+        - /vscode.talon
+        - /help.talon
+        - /edit.talon
+    runs: 3
+    model_settings:
+        openai_model: "gpt-3.5-turbo"
+        model_endpoint: "https://api.openai.com/v1/chat/completions"
+        model_temperature: 0.50
+        model_system_prompt: 
+            "You are being integraded into a voice command software. Your task is to take 
+            the user's raw speech to text strings and compare them to available commands to find the
+            most likely command that the user was asking for. The commands come in a .yaml file. 
+            The possible commands are formatted as:
+            spoken form: action. There may be multiple spoken forms surrounded by ( ), seperated by |, and the action may
+            include several written forms or python commands. Also, the spoken form may include open ended 
+            tags where user dication would be inserted which could look like this: nova <user.text>$:
+            result = user.command_match(text)
+            user.nova_hide()
+            user.nova_show(result) . If there is an open ended tag, make sure to put whatever recommened text for the user to say in <>. 
+            Also note that there are sometimes comments noted with # that may provide aditional context for the block of commands below them.
+            Your task is to simply return the most likely command (just the spoken form of the command only, nothing else). If it seems
+            like there may be several likely options, you can return several options, seperated by ', or' "
+        model_prompt:
+            "Respond with the most likely command, no other text. Here is a list of the possible commands:"
+    test_commands: 
+        window reload: 
+            - reload
+            - reload this window
+            - refresh the window 
+            - update what's on the window
+        window close:
+            - close this window
+            - close
+            - exit out of this window
+            - exit
+        bar explore:
+            - show the file explorer
+            - Show me the files in VS code
+            - Explore bar
+            - Explore files
+        bar extensions: 
+            - Show me the extension store
+            - Show all the extensions
+            - On the side panel, click the extensions
+            - On the side bar, click the extensions
+        bar outline: 
+            - show the outline
+        bar run: 
+            - show the debug panel
+            - on the side bar, show debug
+            - debug 
+            - debug window
+            - run window
+        bar search: 
+            - search
+            - open the search
+            - help me find
+            - search in vscode
+        bar source:
+            - show the git panel
+            - show the source management 
+            - source
+            - switch to the source view
+        bar test: 
+            - Focus the testing panel
+            - Show the testing window
+            - Open testing
+            - Show the tests
+        bar switch: 
+            - Hide the sidebar
+            - Show the sidebar
+            - Toggle the sidebar
+            - bar show
+            - bar hide
+            - bar display 
+        zoom in:
+            - zoom
+            - make the items on the display bigger
+        go word left:
+            - go one word to the left
+            - move the curser one word left
+        go down:
+            - go down a line
+            - move the cursor down
+        go line end:
+            - move the cursor to the end of the line
+            - go to the end of this line
+        go way down:
+            - move the cursor to the bottom of the page
+            - go to the bottom of the text
+        select all:
+            - select all text
+            - select everything
+        clear line:
+            - delete this line
+            - clear the line
+            - wipe the line
+        clear way down:
+            - delete everything below the cursor
+            - delete everything down to the bottom of the page
+        copy that:
+            - copy my selection
+            - copy
+            - control copy
+        cut word:
+            - cut this word
+        clone that:
+            - copy and paste my selection
+            - duplicate my selection
+        undo that:
+            - undo
+            - undo what i just did
+        file save:
+            - save the file
+            - save
+        help alphabet:
+            - show me the names for the letters
+            - help me find the alphabet
+            - talon's alphabet
+        help arrows:
+            - commands for arrow keys
+            - show list of arrow keys
+            - show talon files for arrow keys
+        help modifier: 
+            - show the help dialog for control and command keys
+            - help me with modifier keys
+            - commands for modifiers
+
+temp_75: 
+    talon_paths: 
+        - /vscode.talon
+        - /help.talon
+        - /edit.talon
+    runs: 3
+    model_settings:
+        openai_model: "gpt-3.5-turbo"
+        model_endpoint: "https://api.openai.com/v1/chat/completions"
+        model_temperature: 0.75
+        model_system_prompt: 
+            "You are being integraded into a voice command software. Your task is to take 
+            the user's raw speech to text strings and compare them to available commands to find the
+            most likely command that the user was asking for. The commands come in a .yaml file. 
+            The possible commands are formatted as:
+            spoken form: action. There may be multiple spoken forms surrounded by ( ), seperated by |, and the action may
+            include several written forms or python commands. Also, the spoken form may include open ended 
+            tags where user dication would be inserted which could look like this: nova <user.text>$:
+            result = user.command_match(text)
+            user.nova_hide()
+            user.nova_show(result) . If there is an open ended tag, make sure to put whatever recommened text for the user to say in <>. 
+            Also note that there are sometimes comments noted with # that may provide aditional context for the block of commands below them.
+            Your task is to simply return the most likely command (just the spoken form of the command only, nothing else). If it seems
+            like there may be several likely options, you can return several options, seperated by ', or' "
+        model_prompt:
+            "Respond with the most likely command, no other text. Here is a list of the possible commands:"
+    test_commands: 
+        window reload: 
+            - reload
+            - reload this window
+            - refresh the window 
+            - update what's on the window
+        window close:
+            - close this window
+            - close
+            - exit out of this window
+            - exit
+        bar explore:
+            - show the file explorer
+            - Show me the files in VS code
+            - Explore bar
+            - Explore files
+        bar extensions: 
+            - Show me the extension store
+            - Show all the extensions
+            - On the side panel, click the extensions
+            - On the side bar, click the extensions
+        bar outline: 
+            - show the outline
+        bar run: 
+            - show the debug panel
+            - on the side bar, show debug
+            - debug 
+            - debug window
+            - run window
+        bar search: 
+            - search
+            - open the search
+            - help me find
+            - search in vscode
+        bar source:
+            - show the git panel
+            - show the source management 
+            - source
+            - switch to the source view
+        bar test: 
+            - Focus the testing panel
+            - Show the testing window
+            - Open testing
+            - Show the tests
+        bar switch: 
+            - Hide the sidebar
+            - Show the sidebar
+            - Toggle the sidebar
+            - bar show
+            - bar hide
+            - bar display 
+        zoom in:
+            - zoom
+            - make the items on the display bigger
+        go word left:
+            - go one word to the left
+            - move the curser one word left
+        go down:
+            - go down a line
+            - move the cursor down
+        go line end:
+            - move the cursor to the end of the line
+            - go to the end of this line
+        go way down:
+            - move the cursor to the bottom of the page
+            - go to the bottom of the text
+        select all:
+            - select all text
+            - select everything
+        clear line:
+            - delete this line
+            - clear the line
+            - wipe the line
+        clear way down:
+            - delete everything below the cursor
+            - delete everything down to the bottom of the page
+        copy that:
+            - copy my selection
+            - copy
+            - control copy
+        cut word:
+            - cut this word
+        clone that:
+            - copy and paste my selection
+            - duplicate my selection
+        undo that:
+            - undo
+            - undo what i just did
+        file save:
+            - save the file
+            - save
+        help alphabet:
+            - show me the names for the letters
+            - help me find the alphabet
+            - talon's alphabet
+        help arrows:
+            - commands for arrow keys
+            - show list of arrow keys
+            - show talon files for arrow keys
+        help modifier: 
+            - show the help dialog for control and command keys
+            - help me with modifier keys
+            - commands for modifiers
+
+temp_100: 
+    talon_paths: 
+        - /vscode.talon
+        - /help.talon
+        - /edit.talon
+    runs: 3
+    model_settings:
+        openai_model: "gpt-3.5-turbo"
+        model_endpoint: "https://api.openai.com/v1/chat/completions"
+        model_temperature: 1
+        model_system_prompt: 
+            "You are being integraded into a voice command software. Your task is to take 
+            the user's raw speech to text strings and compare them to available commands to find the
+            most likely command that the user was asking for. The commands come in a .yaml file. 
+            The possible commands are formatted as:
+            spoken form: action. There may be multiple spoken forms surrounded by ( ), seperated by |, and the action may
+            include several written forms or python commands. Also, the spoken form may include open ended 
+            tags where user dication would be inserted which could look like this: nova <user.text>$:
+            result = user.command_match(text)
+            user.nova_hide()
+            user.nova_show(result) . If there is an open ended tag, make sure to put whatever recommened text for the user to say in <>. 
+            Also note that there are sometimes comments noted with # that may provide aditional context for the block of commands below them.
+            Your task is to simply return the most likely command (just the spoken form of the command only, nothing else). If it seems
+            like there may be several likely options, you can return several options, seperated by ', or' "
+        model_prompt:
+            "Respond with the most likely command, no other text. Here is a list of the possible commands:"
+    test_commands: 
+        window reload: 
+            - reload
+            - reload this window
+            - refresh the window 
+            - update what's on the window
+        window close:
+            - close this window
+            - close
+            - exit out of this window
+            - exit
+        bar explore:
+            - show the file explorer
+            - Show me the files in VS code
+            - Explore bar
+            - Explore files
+        bar extensions: 
+            - Show me the extension store
+            - Show all the extensions
+            - On the side panel, click the extensions
+            - On the side bar, click the extensions
+        bar outline: 
+            - show the outline
+        bar run: 
+            - show the debug panel
+            - on the side bar, show debug
+            - debug 
+            - debug window
+            - run window
+        bar search: 
+            - search
+            - open the search
+            - help me find
+            - search in vscode
+        bar source:
+            - show the git panel
+            - show the source management 
+            - source
+            - switch to the source view
+        bar test: 
+            - Focus the testing panel
+            - Show the testing window
+            - Open testing
+            - Show the tests
+        bar switch: 
+            - Hide the sidebar
+            - Show the sidebar
+            - Toggle the sidebar
+            - bar show
+            - bar hide
+            - bar display 
+        zoom in:
+            - zoom
+            - make the items on the display bigger
+        go word left:
+            - go one word to the left
+            - move the curser one word left
+        go down:
+            - go down a line
+            - move the cursor down
+        go line end:
+            - move the cursor to the end of the line
+            - go to the end of this line
+        go way down:
+            - move the cursor to the bottom of the page
+            - go to the bottom of the text
+        select all:
+            - select all text
+            - select everything
+        clear line:
+            - delete this line
+            - clear the line
+            - wipe the line
+        clear way down:
+            - delete everything below the cursor
+            - delete everything down to the bottom of the page
+        copy that:
+            - copy my selection
+            - copy
+            - control copy
+        cut word:
+            - cut this word
+        clone that:
+            - copy and paste my selection
+            - duplicate my selection
+        undo that:
+            - undo
+            - undo what i just did
+        file save:
+            - save the file
+            - save
+        help alphabet:
+            - show me the names for the letters
+            - help me find the alphabet
+            - talon's alphabet
+        help arrows:
+            - commands for arrow keys
+            - show list of arrow keys
+            - show talon files for arrow keys
+        help modifier: 
+            - show the help dialog for control and command keys
+            - help me with modifier keys
+            - commands for modifiers
+
