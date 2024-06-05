@@ -17,7 +17,7 @@ def gpt_query(prompt: str, content: str, model_settings: dict) -> str:
 
     headers, data = generate_payload(prompt, content, model_settings)
 
-    max_retries = 5
+    max_retries = 50
     backoff_factor = 0.1
 
     for attempt in range(max_retries):

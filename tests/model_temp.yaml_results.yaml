@@ -1,0 +1,2842 @@
+temp_0_results_run0:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Show me the files in VS code
+    - Explore bar
+    - Explore files
+    incorrectly_guessed: []
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show settings workspace, show settings folder,
+      show settings, show settings workspace json, show settings json, show settings
+      folder json, show shortcuts, show snippets, show settings folder, show settings
+      workspace, show settings json, show settings workspace json, show settings folder
+      json, show shortcuts, show snippets, show settings folder, show settings workspace,
+      show settings json, show settings workspace json, show settings folder json,
+      show shortcuts, show snippets'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug start'
+    - 'debug window: debug window'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'search: find it'
+    - 'open the search: file hunt'
+    - 'help me find: help help'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar show
+    - bar hide
+    incorrectly_guessed:
+    - 'bar display: bar display'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar run'
+    - 'Show the testing window: go view test, bar test'
+    - 'Open testing: test run or test run file'
+    - 'Show the tests: go view test, test run, test debug'
+  clear line:
+    correctly_guessed:
+    - clear the line
+    incorrectly_guessed:
+    - 'delete this line: clear line: edit.delete_line'
+    - 'wipe the line: clear line: edit.delete_line()'
+  clear way down:
+    correctly_guessed:
+    - delete everything down to the bottom of the page
+    incorrectly_guessed:
+    - 'delete everything below the cursor: clear down'
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, paste that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    incorrectly_guessed:
+    - 'control copy: file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path'
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - go down a line
+    - move the cursor down
+    incorrectly_guessed: []
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: please, go view, bar explore, bar extensions,
+      bar outline, bar run, bar search, bar source, bar test, bar switch'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left, go right, go up, go down'
+    - 'show talon files for arrow keys: bar switch'
+  help modifier:
+    correctly_guessed:
+    - help me with modifier keys
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context, help active'
+    - 'commands for modifiers: window reload'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: close all tabs, close other tabs, window close'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed:
+    - make the items on the display bigger
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+temp_0_results_run1:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Show me the files in VS code
+    - Explore bar
+    - Explore files
+    incorrectly_guessed: []
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show settings folder, show settings folder json,
+      show settings workspace, show settings workspace json, show shortcuts, show
+      shortcuts json, show snippets, show settings, show settings json, show settings
+      folder, show settings folder json, show settings workspace, show settings workspace
+      json, show shortcuts, show shortcuts json, show snippets, show settings, show
+      settings json'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug start'
+    - 'debug window: debug window'
+    - 'run window: go view window'
+  bar search:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'search: find it'
+    - 'open the search: file hunt'
+    - 'help me find: help help'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed:
+    - 'show the git panel: bar source, bar switch, git status'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar show
+    - bar hide
+    - bar display
+    incorrectly_guessed: []
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar run'
+    - 'Show the testing window: go view test, bar test'
+    - 'Open testing: go view testing'
+    - 'Show the tests: test run all, test run, test run file, test run last, test
+      run failed, test debug all, test debug, test debug file, test debug last, test
+      debug failed, test cancel'
+  clear line:
+    correctly_guessed:
+    - clear the line
+    incorrectly_guessed:
+    - 'delete this line: clear line: edit.delete_line'
+    - 'wipe the line: clear line: edit.delete_line()'
+  clear way down:
+    correctly_guessed:
+    - delete everything down to the bottom of the page
+    incorrectly_guessed:
+    - 'delete everything below the cursor: clear down'
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, paste that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    - control copy
+    incorrectly_guessed: []
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - move the cursor down
+    incorrectly_guessed:
+    - 'go down a line: go down: edit.down'
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show shortcuts, help alphabet'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left, go right, go up, go down'
+    - 'show talon files for arrow keys: bar explore'
+  help modifier:
+    correctly_guessed:
+    - help me with modifier keys
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context, help active'
+    - 'commands for modifiers: Please, window reload or window close'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: close all tabs'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed:
+    - make the items on the display bigger
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+temp_0_results_run2:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Show me the files in VS code
+    - Explore bar
+    - Explore files
+    incorrectly_guessed: []
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show settings folder, show settings folder json,
+      show settings workspace, show settings workspace json, show shortcuts, show
+      snippets, show settings, show settings json, show settings folder, show settings
+      folder json, show settings workspace, show settings workspace json, show shortcuts,
+      show snippets'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug start'
+    - 'debug window: debug window'
+    - 'run window: go view window, window reload, window close'
+  bar search:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'search: help search <how do i search?>'
+    - 'open the search: file hunt'
+    - 'help me find: help help'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed:
+    - 'show the git panel: bar source, bar switch, git status'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar show
+    - bar hide
+    incorrectly_guessed:
+    - 'bar display: bar display'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar run'
+    - 'Show the testing window: go view test, bar test'
+    - 'Open testing: test run or test run file'
+    - 'Show the tests: go view test, test run, test run all, test run last'
+  clear line:
+    correctly_guessed:
+    - clear the line
+    - wipe the line
+    incorrectly_guessed:
+    - 'delete this line: clear line: edit.delete_line'
+  clear way down:
+    correctly_guessed:
+    - delete everything down to the bottom of the page
+    incorrectly_guessed:
+    - 'delete everything below the cursor: clear down'
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, paste that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    - control copy
+    incorrectly_guessed: []
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - go down a line
+    - move the cursor down
+    incorrectly_guessed: []
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show shortcuts, help alphabet'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left, go right, go up, go down'
+    - 'show talon files for arrow keys: bar explore'
+  help modifier:
+    correctly_guessed:
+    - help me with modifier keys
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context, help active,
+      help context control and command keys'
+    - 'commands for modifiers: window reload'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: close all tabs, close other tabs, window close'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+    - 'make the items on the display bigger: fullscreen switch'
+temp_100_results_run0:
+  bar explore:
+    correctly_guessed:
+    - Show me the files in VS code
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'show the file explorer: bar explore or file hunt <user.text>'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug, bar run, bar switch'
+    - 'debug: debug start or debug stop'
+    - 'debug window: debug console'
+    - 'run window: go view run window'
+  bar search:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'search: find it, edit.find'
+    - 'open the search: file hunt'
+    - 'help me find: help commands'
+    - 'search in vscode: find it'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - switch to the source view
+    incorrectly_guessed:
+    - 'source: bar source or go view source'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar hide
+    incorrectly_guessed:
+    - 'bar show: bar show'
+    - 'bar display: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, or bar switch'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar switch'
+    - 'Show the testing window: bar test or bar run'
+    - 'Open testing: go view test run or test run'
+    - 'Show the tests: symbol hunt all, symbol hunt'
+  clear line:
+    correctly_guessed:
+    - delete this line
+    - clear the line
+    incorrectly_guessed:
+    - 'wipe the line: cut line, clear line, cut line start, cut line end'
+  clear way down:
+    correctly_guessed:
+    - delete everything below the cursor
+    - delete everything down to the bottom of the page
+    incorrectly_guessed: []
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that: edit.copy(), (pace | paste) that: edit.paste()'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    - control copy
+    incorrectly_guessed: []
+  cut word:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'cut this word: cut that'
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - move the cursor down
+    incorrectly_guessed:
+    - 'go down a line: go down, go way down'
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show shortcuts, help alphabet'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go way left, go way right, go way up, go way down'
+    - 'show talon files for arrow keys: go way down, help search <show talon files
+      for arrow keys>'
+  help modifier:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context or help contextEnabled'
+    - 'help me with modifier keys: help modifier keys'
+    - 'commands for modifiers: go view, window close, window reload'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    - exit
+    incorrectly_guessed: []
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    incorrectly_guessed:
+    - 'update what''s on the window: please, go view "window reload"'
+  zoom in:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+    - 'make the items on the display bigger: zen switch'
+temp_100_results_run1:
+  bar explore:
+    correctly_guessed:
+    - Show me the files in VS code
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'show the file explorer: bar explore, bar source, bar switch, bar run, bar test,
+      bar outline, bar search, bar extensions'
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: go view bar extensions'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: Bar debug'
+    - 'debug: debug start, debug console, debug clean, debug step into, debug step
+      out, debug step over, debug continue or debug restart'
+    - 'debug window: debug window'
+    - 'run window: go view window run'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: symbol hunt, file hunt, copy that'
+    - 'help me find: please, symbol hunt, symbol hunt all, file hunt, file hunt paste,
+      file copy name, file copy path, file copy local path, file create sibling, file
+      create, file create relative, file create root, file rename, file move, file
+      clone, file delete, file open folder, file reveal, save ugly, suggest show,
+      hint show, definition show, definition peek, definition side, references show,
+      hierarchy peek, references find, format that, format selection, imports fix,
+      problem next, problem last, problem fix, rename that, refactor that, whitespace
+      trim, language switch, refactor rename, refactor this, go declaration, go back,
+      go forward, go implementation, go type, go usage, go recent, go edit, bar marks,
+      go marks, toggle mark, go next mark, go last mark, close other tabs, close all
+      tabs, close tabs way right, close tabs way left, fold that, unfold that, fold
+      those, unfold those, fold all, unfold all, fold comments, fold one, fold two,
+      fold three, fold four, fold five, fold six, fold seven, git branch, git branch
+      this, git checkout, git commit, git commit undo, git commit amend, git diff,
+      git fetch, git fetch all, git ignore, git merge, git output, git pull, git push,
+      git push force, git rebase abort, git reveal, git revert, git stash, git stash
+      pop, git status, git stage, git stage all, git sync, git unstage, git unstage
+      all, pull request, change next, change last, test run, test run file, test run
+      all, test run failed, test run last, test debug, test debug file, test debug
+      all, test debug failed, test debug last, test cancel, break point, step over,
+      debug step into, debug step out, debug start, debug pause, debug stopper, debug
+      continue, debug restart, debug console, debug clean, terminal external, terminal
+      new, terminal next, terminal last, terminal split, terminal zoom, terminal trash,
+      terminal toggle, terminal scroll up, terminal scroll down, terminal 1, terminal
+      2, terminal 3, terminal 4, terminal 5, terminal 6, terminal 7, copy line down,
+      copy line up, select less, select more, minimap, maximize, restore, select breadcrumb,
+      replace here, hover show, join lines, full screen, zoom in, zoom out, zoom reset,
+      find it, next one, scroll up, scroll down, go word left, go word right, go left,
+      go right, go up, go down, go line start, go line end, go way left, go way right,
+      go way up, go way down, go top, go bottom, go page up, go page down, select
+      all, select line, select line start, select line end, select left, select right,
+      select up, select down, select word, select word left, select word right, select
+      way left, select way right, select way up, select way down, indent, indent less,
+      clear all, clear line, clear line start, clear line end, clear left, clear right,
+      clear up, clear down, clear word, clear word left, clear word right, clear way
+      left, clear way right, clear way up, clear way down, copy that, copy all, copy
+      line, copy line start, copy line end, copy word, copy word left, copy word right,
+      cut that, cut all, cut line, cut line start, cut line end, cut word, cut word
+      left, cut word right, paste that, paste enter, paste match, paste all, paste
+      line, paste line start, paste line end, paste word, clone that, clone line,
+      new line above, new line below.'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed:
+    - 'show the git panel: bar source, bar switch, git status'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar show
+    - bar hide
+    incorrectly_guessed:
+    - 'bar display: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test, bar run'
+    - 'Show the testing window: go view testing, bar test'
+    - 'Open testing: go view testing'
+    - 'Show the tests: go view bar test: user.vscode("workbench.view.debug")'
+  clear line:
+    correctly_guessed:
+    - delete this line
+    - clear the line
+    incorrectly_guessed:
+    - 'wipe the line: clear line: edit.delete_line or cut line: user.cut_line'
+  clear way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'delete everything below the cursor: go way down'
+    - 'delete everything down to the bottom of the page: scroll way down, clear way
+      down'
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, (pace | paste) that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    incorrectly_guessed:
+    - 'control copy: file copy name'
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - move the cursor down
+    incorrectly_guessed:
+    - 'go down a line: go down: edit.down'
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    incorrectly_guessed:
+    - 'go to the end of this line: go line end, go line start'
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: please, go view side bar, bar explore, bar
+      explore'
+  help arrows:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left, go right, go up, go down'
+    - 'show list of arrow keys: show help arrows'
+    - 'show talon files for arrow keys: bar explore'
+  help modifier:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help shortcuts, help keyboard
+      commands'
+    - 'help me with modifier keys: help modifier, help me with modifier keys'
+    - 'commands for modifiers: bar outline'
+  select all:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'select all text: edit.select_all'
+    - 'select everything: edit | select all'
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    incorrectly_guessed:
+    - 'close: close tabs way right, close tabs way left, close all tabs, window close'
+    - 'exit out of this window: close tabs way right'
+    - 'exit: There are several likely commands that could match the user input:
+
+
+      1. `window close`
+
+      2. `terminal trash`'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+    - 'make the items on the display bigger: fullscreen switch'
+temp_100_results_run2:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show settings folder, show settings folder json,
+      show settings workspace, show settings workspace json'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar run: user.vscode("workbench.view.debug")'
+    - 'debug: debug start'
+    - 'debug window: debug window'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'search: file hunt, file hunt pane, go file hunt, file lose, file hunt all,
+      full screen, save ugly, what would i search'
+    - 'open the search: please'
+    - 'help me find: please'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    incorrectly_guessed:
+    - 'show the git panel: bar source, git status, panel switch: you can say either
+      of these to show the git panel in vscode.'
+    - 'source: window close'
+    - 'switch to the source view: bar source, bar switch for sidebar focus'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    - bar hide
+    incorrectly_guessed:
+    - 'Show the sidebar: bar switch, bar show, show source'
+    - 'bar show: bar explore, bar show'
+    - 'bar display: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    incorrectly_guessed:
+    - 'Show the testing window: go to bar test'
+    - 'Open testing: go view testing'
+    - 'Show the tests: test run: user.vscode("testing.runAtCursor")
+
+      test run file: user.vscode("testing.runCurrentFile")
+
+      test run all: user.vscode("testing.runAll")
+
+      test run failed: user.vscode("testing.reRunFailTests")
+
+      test run last: user.vscode("testing.reRunLastRun")'
+  clear line:
+    correctly_guessed:
+    - delete this line
+    - clear the line
+    incorrectly_guessed:
+    - 'wipe the line: clear line or clear line start or clear line end'
+  clear way down:
+    correctly_guessed:
+    - delete everything down to the bottom of the page
+    incorrectly_guessed:
+    - 'delete everything below the cursor: clear down'
+  clone that:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, paste that'
+    - 'duplicate my selection: clone that, clone line'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    incorrectly_guessed:
+    - 'control copy: file copy path or file copy local [path] or file copy name'
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - move the cursor down
+    incorrectly_guessed:
+    - 'go down a line: go down, go way down'
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed:
+    - move the cursor to the bottom of the page
+    - go to the bottom of the text
+    incorrectly_guessed: []
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show shortcuts,json'
+    - 'talon''s alphabet: show shortcuts, help alphabet'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left or go right, go up or go down'
+    - 'show talon files for arrow keys: bar switch'
+  help modifier:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help help'
+    - 'help me with modifier keys: help modifier keys'
+    - 'commands for modifiers: window reload, window close'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: close all tabs'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+    - 'make the items on the display bigger: theme switch'
+temp_25_results_run0:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Show me the files in VS code
+    - Explore bar
+    - Explore files
+    incorrectly_guessed: []
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show settings folder, show settings folder json,
+      show settings workspace, show settings workspace json, show shortcuts, show
+      shortcuts json, show snippets, show settings, show settings json, show settings
+      folder, show settings folder json, show settings workspace, show settings workspace
+      json, show shortcuts, show shortcuts json, show snippets, show settings, show
+      settings json'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug start'
+    - 'debug window: debug window'
+    - 'run window: go view window'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: file hunt, file hunt paste, file hunt pace'
+    - 'help me find: help help'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed:
+    - 'show the git panel: bar source, bar switch, bar explore, bar extensions, bar
+      outline, bar run, bar search, bar test'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar hide
+    - bar display
+    incorrectly_guessed:
+    - 'bar show: bar show'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar run'
+    - 'Show the testing window: go view test, bar test'
+    - 'Open testing: test run, test debug'
+    - 'Show the tests: go view test, test run, test run all, test run last'
+  clear line:
+    correctly_guessed:
+    - delete this line
+    - clear the line
+    incorrectly_guessed:
+    - 'wipe the line: clear line: edit.delete_line()'
+  clear way down:
+    correctly_guessed:
+    - delete everything down to the bottom of the page
+    incorrectly_guessed:
+    - 'delete everything below the cursor: clear down'
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, paste that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    - control copy
+    incorrectly_guessed: []
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - move the cursor down
+    incorrectly_guessed:
+    - 'go down a line: go down: edit.down'
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show settings folder, show settings workspace,
+      show settings folder json, show settings workspace json, show shortcuts, show
+      snippets, show settings json'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left, go right, go up, go down'
+    - 'show talon files for arrow keys: bar switch'
+  help modifier:
+    correctly_guessed:
+    - help me with modifier keys
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context'
+    - 'commands for modifiers: window reload, window close'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: close all tabs'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+    - 'make the items on the display bigger: fullscreen switch'
+temp_25_results_run1:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: bar explore, bar extensions, bar outline, bar
+      run, bar search, bar source, bar test, bar switch'
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show settings folder, show settings folder json,
+      show settings workspace, show settings workspace json, show shortcuts, show
+      shortcuts json, show snippets, show settings, show settings json, show settings
+      folder, show settings folder json, show settings workspace, show settings workspace
+      json, show shortcuts, show shortcuts json, show snippets, show settings, show
+      settings json, show settings folder, show settings folder json, show settings
+      workspace, show settings workspace json, show shortcuts, show shortcuts json,
+      show snippets'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug start'
+    - 'debug window: debug window'
+    - 'run window: go view window, window reload, window close'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: find it'
+    - 'help me find: help help'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed:
+    - 'show the git panel: bar source, bar switch, git status'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar hide
+    incorrectly_guessed:
+    - 'bar show: bar explore, bar extensions, bar outline, bar run, bar search, bar
+      source, bar test, bar switch'
+    - 'bar display: bar display'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar run'
+    - 'Show the testing window: go view test, bar test'
+    - 'Open testing: go view testing'
+    - 'Show the tests: go view test | go view test focus, test run, test run all,
+      test run last'
+  clear line:
+    correctly_guessed:
+    - delete this line
+    - clear the line
+    - wipe the line
+    incorrectly_guessed: []
+  clear way down:
+    correctly_guessed:
+    - delete everything below the cursor
+    - delete everything down to the bottom of the page
+    incorrectly_guessed: []
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, paste that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    incorrectly_guessed:
+    - 'control copy: file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file copy local path, file copy name, file copy path, file copy local
+      path, file copy name, file copy path, file copy local path, file copy name,
+      file copy path, file copy local path, file copy name, file copy path, file copy
+      local path, file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path, file copy name, file copy path, file copy local path,
+      file copy name, file copy path, file copy local path, file copy name, file copy
+      path, file'
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - move the cursor down
+    incorrectly_guessed:
+    - 'go down a line: go down, go down, go down'
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down, go down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show shortcuts, help alphabet'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left, go right, go up, go down'
+    - 'show talon files for arrow keys: bar explore'
+  help modifier:
+    correctly_guessed:
+    - help me with modifier keys
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context, help active,
+      help context {control, command}'
+    - 'commands for modifiers: window reload'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: close all tabs, close other tabs, window close'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed:
+    - make the items on the display bigger
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+temp_25_results_run2:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Show me the files in VS code
+    - Explore bar
+    - Explore files
+    incorrectly_guessed: []
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show settings folder, show settings folder json,
+      show settings workspace, show settings workspace json, show shortcuts, show
+      snippets'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug, bar run'
+    - 'debug: debug start'
+    - 'debug window: debug start'
+    - 'run window: go view window'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: file hunt, file hunt pace, file hunt <user.text>, file hunt pace, file
+      hunt <user.text>'
+    - 'help me find: help help'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed:
+    - 'show the git panel: bar source, bar switch, git status'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar hide
+    incorrectly_guessed:
+    - 'bar show: bar explore, bar extensions, bar outline, bar run, bar search, bar
+      source, bar test, bar switch'
+    - 'bar display: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar run'
+    - 'Show the testing window: go view test, bar test'
+    - 'Open testing: go view testing'
+    - 'Show the tests: go view test, test run, test run all, test run last'
+  clear line:
+    correctly_guessed:
+    - clear the line
+    incorrectly_guessed:
+    - 'delete this line: clear line: edit.delete_line'
+    - 'wipe the line: clear line: edit.delete_line()'
+  clear way down:
+    correctly_guessed:
+    - delete everything down to the bottom of the page
+    incorrectly_guessed:
+    - 'delete everything below the cursor: clear down'
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, paste that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    incorrectly_guessed:
+    - 'control copy: file copy name, file copy path, file copy local path, file copy
+      name, file copy path, file copy local path, file copy name, file copy path,
+      file copy local path'
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - move the cursor down
+    incorrectly_guessed:
+    - 'go down a line: go down, go way down, go way down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go down, go down, go down,
+      go down, go down, go down, go down, go down, go down, go'
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show settings folder, show settings workspace,
+      show settings folder json'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left, go right, go up, go down'
+    - 'show talon files for arrow keys: bar explore'
+  help modifier:
+    correctly_guessed:
+    - help me with modifier keys
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help alphabet, help symbols,
+      help numbers, help punctuation, help modifier, help special keys, help function
+      keys, help arrows, help formatters, help context, help active, help search,
+      help help, help scope'
+    - 'commands for modifiers: Please, window reload or window close'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: close all tabs'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed:
+    - make the items on the display bigger
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+temp_50_results_run0:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: bar explore, file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show shortcuts, show settings, show settings folder,
+      show settings json, show settings workspace, show settings workspace json, show
+      snippets, show shortcuts json, show settings folder json'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug start'
+    - 'debug window: debug window'
+    - 'run window: go view window'
+  bar search:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'search: find it, edit.find'
+    - 'open the search: file hunt'
+    - 'help me find: help help'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar hide
+    - bar display
+    incorrectly_guessed:
+    - 'bar show: bar show'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test, bar switch, panel control, panel output,
+      panel problems, panel terminal, panel switch, test run, test debug, test cancel'
+    - 'Show the testing window: bar test: vscode'
+    - 'Open testing: go view test, test run, test debug, test cancel'
+    - 'Show the tests: go view test, test run, test run all, test run last, test run
+      failed, test debug, test debug all, test debug last, test cancel'
+  clear line:
+    correctly_guessed:
+    - wipe the line
+    incorrectly_guessed:
+    - 'delete this line: clear line: edit.delete_line'
+    - 'clear the line: clear line: edit.delete_line()'
+  clear way down:
+    correctly_guessed:
+    - delete everything below the cursor
+    - delete everything down to the bottom of the page
+    incorrectly_guessed: []
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, paste that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    - control copy
+    incorrectly_guessed: []
+  cut word:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'cut this word: cut word, cut word left, cut word right'
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - move the cursor down
+    incorrectly_guessed:
+    - 'go down a line: go down: edit.down'
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show shortcuts, show settings, help alphabet'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left, go right, go up, go down'
+    - 'show talon files for arrow keys: file hunt, file create, file reveal'
+  help modifier:
+    correctly_guessed:
+    - help me with modifier keys
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context'
+    - 'commands for modifiers: Please, how do I commands for modifiers?'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    incorrectly_guessed:
+    - 'exit out of this window: close tabs way right, close tabs way left, window
+      close'
+    - 'exit: close all tabs'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed:
+    - make the items on the display bigger
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+temp_50_results_run1:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Show me the files in VS code
+    - Explore bar
+    - Explore files
+    incorrectly_guessed: []
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: go view bar extensions'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug start'
+    - 'debug window: debug window'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: file hunt, file hunt pace, file create, file create sibling, file create,
+      file reveal, file open folder, file reveal, file open folder, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file reveal, file open folder, file reveal, file open folder,
+      file reveal, file open folder, file reveal, file open folder, file reveal, file
+      open folder, file reveal, file open folder, file reveal, file open folder, file
+      reveal, file open folder, file reveal, file open folder, file reveal, file open
+      folder, file reveal, file open folder, file reveal, file open folder, file reveal,
+      file open folder, file'
+    - 'help me find: help help'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar hide
+    incorrectly_guessed:
+    - 'bar show: bar explore, bar extensions, bar outline, bar run, bar search, bar
+      source, bar test, bar switch'
+    - 'bar display: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar switch'
+    - 'Show the testing window: go view test, go view testing, bar test'
+    - 'Open testing: go view testing'
+    - 'Show the tests: test run all, test run last, test run, test run failed, test
+      debug all, test debug last, test debug, test debug failed, test cancel'
+  clear line:
+    correctly_guessed:
+    - delete this line
+    - clear the line
+    incorrectly_guessed:
+    - 'wipe the line: clear line: edit.delete_line()'
+  clear way down:
+    correctly_guessed:
+    - delete everything below the cursor
+    - delete everything down to the bottom of the page
+    incorrectly_guessed: []
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, pace that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    incorrectly_guessed:
+    - 'control copy: file copy name, file copy path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file copy local path,
+      file copy local path, file copy local path, file copy local path, file copy
+      local path, file copy local path, file copy local path, file'
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - move the cursor down
+    incorrectly_guessed:
+    - 'go down a line: go down, go down, go down'
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom, go way down, go way down,
+      go way down'
+    - 'go to the bottom of the text: go bottom, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show shortcuts, show settings, help alphabet'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left, go right, go up, go down'
+    - 'show talon files for arrow keys: bar switch'
+  help modifier:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context'
+    - 'help me with modifier keys: help special keys'
+    - 'commands for modifiers: Please, go view, bar explore, bar extensions, bar outline,
+      bar run, bar search, bar source, bar test, bar switch.'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - exit out of this window
+    - exit
+    incorrectly_guessed:
+    - 'close: close tabs way right, close tabs way left or close all tabs'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed:
+    - make the items on the display bigger
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+temp_50_results_run2:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: bar explore, file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show settings workspace, show settings folder,
+      show settings,json, show settings folder json, show settings workspace json'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug start'
+    - 'debug window: debug window'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: file hunt, file hunt pace, file copy name, file copy path, file copy
+      local path, file create, file create relative, file create root, file rename,
+      file move, file clone, file delete, file open folder, file reveal, save ugly'
+    - 'help me find: help help'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed:
+    - 'show the git panel: bar source, bar switch, git status'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar hide
+    incorrectly_guessed:
+    - 'bar show: bar show'
+    - 'bar display: bar display'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar run'
+    - 'Show the testing window: go view testing, bar test'
+    - 'Open testing: go view testing, test run, test debug'
+    - 'Show the tests: go view test, test run all'
+  clear line:
+    correctly_guessed:
+    - clear the line
+    incorrectly_guessed:
+    - 'delete this line: clear line: edit.delete_line'
+    - 'wipe the line: clear line: edit.delete_line()'
+  clear way down:
+    correctly_guessed:
+    - delete everything down to the bottom of the page
+    incorrectly_guessed:
+    - 'delete everything below the cursor: clear down'
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, (pace | paste) that'
+  copy that:
+    correctly_guessed:
+    - copy
+    incorrectly_guessed:
+    - 'copy my selection: copy that, cut that, paste that'
+    - 'control copy: file copy name, file copy path, file copy local path'
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - go down a line
+    - move the cursor down
+    incorrectly_guessed: []
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show settings folder, show settings folder
+      json'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go way up, go way down, go way left, go way right'
+    - 'show talon files for arrow keys: file reveal'
+  help modifier:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context, help active,
+      help context control and command keys'
+    - 'help me with modifier keys: help modifiers'
+    - 'commands for modifiers: It seems like the most likely command based on your
+      input is: "please".'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: close all tabs'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+    - 'make the items on the display bigger: fullscreen switch'
+temp_75_results_run0:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: bar explore, bar extensions, bar outline, bar
+      run, bar search, bar source, bar test, bar switch'
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: go view bar extensions'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: debug start'
+    - 'debug window: debug window'
+    - 'run window: go view window'
+  bar search:
+    correctly_guessed:
+    - search
+    - open the search
+    incorrectly_guessed:
+    - 'help me find: help help'
+    - 'search in vscode: file hunt <how do i search in vscode>'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed:
+    - 'show the git panel: bar source or bar switch'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    - bar hide
+    incorrectly_guessed:
+    - 'Show the sidebar: bar switch, bar switch: Show the sidebar'
+    - 'bar show: bar explore, bar toggle, bar switch'
+    - 'bar display: bar display'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar run: user.vscode("workbench.view.debug")'
+    - 'Show the testing window: bar test or bar run: user.vscode("workbench.view.debug")'
+    - 'Open testing: go view test'
+    - 'Show the tests: please'
+  clear line:
+    correctly_guessed:
+    - clear the line
+    incorrectly_guessed:
+    - 'delete this line: cut line or cut line start'
+    - 'wipe the line: clear line: edit.delete_line()'
+  clear way down:
+    correctly_guessed:
+    - delete everything below the cursor
+    - delete everything down to the bottom of the page
+    incorrectly_guessed: []
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, paste that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    incorrectly_guessed:
+    - 'control copy: file copy path'
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - move the cursor down
+    incorrectly_guessed:
+    - 'go down a line: go down, go down, go down'
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show shortcuts, help alphabet'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: scroll up, scroll down, go left, go right, go up,
+      go down, go line start, go line end, go way left, go way right, go way up, go
+      way down, go top, go bottom, go page up, go page down'
+    - 'show talon files for arrow keys: bar explore'
+  help modifier:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context'
+    - 'help me with modifier keys: help modifier keys'
+    - 'commands for modifiers: Please, what commands should I use for modifiers?'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: close all tabs'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+    - 'make the items on the display bigger: centered switch, fullscreen switch, zoom
+      in, zoom out'
+temp_75_results_run1:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Show me the files in VS code
+    - Explore bar
+    - Explore files
+    incorrectly_guessed: []
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: show snippets, show settings, show settings folder,
+      show settings json, show settings workspace, show settings workspace json, show
+      shortcuts, panel control, panel output, panel problems, panel switch, panel
+      terminal, focus editor'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar debug: user.vscode("workbench.view.debug")'
+    - 'debug: debug start'
+    - 'debug window: debug start'
+    - 'run window: go view window'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: file hunt, file create, file delete, file move, file copy path'
+    - 'help me find: help help, help search "help", help context, help active'
+    - 'search in vscode: find it'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed:
+    - 'show the git panel: bar source, panel control'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar hide
+    - bar display
+    incorrectly_guessed:
+    - 'bar show: bar show'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test or bar run, panel output'
+    - 'Show the testing window: bar test or bar run'
+    - 'Open testing: go view test, test run, test debug'
+    - 'Show the tests: go view test, test show, test run, test reveal'
+  clear line:
+    correctly_guessed:
+    - clear the line
+    - wipe the line
+    incorrectly_guessed:
+    - 'delete this line: clear line, clear line, clear line, cut line'
+  clear way down:
+    correctly_guessed:
+    - delete everything down to the bottom of the page
+    incorrectly_guessed:
+    - 'delete everything below the cursor: clear down, clear way down, cut down'
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that, (pace | paste) that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    incorrectly_guessed:
+    - 'control copy: file copy name'
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - go down a line
+    - move the cursor down
+    incorrectly_guessed: []
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show settings folder, show settings$'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: It seems like the most likely command based on your
+      input would be:
+
+      - go way up, go way down
+
+      - go way left, go way right'
+    - 'show talon files for arrow keys: file hunt, file hunt pace, file create, file
+      create sibling, file create, file create relative, file create root, file rename,
+      file move, file clone, file delete, file open folder, file reveal, file copy
+      name, file copy path, file copy local path'
+  help modifier:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help active'
+    - 'help me with modifier keys: help modifier, help special keys'
+    - 'commands for modifiers: bar explore, bar extensions, bar outline, bar run,
+      bar search, bar source, bar test, bar switch or symbol hunt, symbol hunt all'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - exit out of this window
+    incorrectly_guessed:
+    - 'close: close, close other tabs, close all tabs, close tabs way right, close
+      tabs way left'
+    - 'exit: close all tabs, close other tabs, window close'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed:
+    - make the items on the display bigger
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
+temp_75_results_run2:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Show me the files in VS code
+    - Explore bar
+    incorrectly_guessed:
+    - 'Explore files: bar explore, bar source'
+  bar extensions:
+    correctly_guessed:
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed:
+    - 'Show me the extension store: help context'
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: debug console'
+    - 'on the side bar, show debug: bar switch'
+    - 'debug: debug start'
+    - 'debug window: debug continue'
+    - 'run window: go view run window'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: help search <how do i search?>'
+    - 'help me find: help help'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed:
+    - 'show the git panel: bar source, bar run'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Show the sidebar
+    - Toggle the sidebar
+    - bar hide
+    incorrectly_guessed:
+    - 'bar show: bar show'
+    - 'bar display: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, or bar switch'
+  bar test:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'Focus the testing panel: bar test, bar run or bar switch'
+    - 'Show the testing window: bar test: user.vscode("workbench.view.testing.focus")'
+    - 'Open testing: go view testing, test run, test run file, test run all, test
+      run failed, test run last'
+    - 'Show the tests: symbol hunt all, test run all'
+  clear line:
+    correctly_guessed:
+    - clear the line
+    incorrectly_guessed:
+    - 'delete this line: delete line'
+    - 'wipe the line: clear line: edit.delete_line()'
+  clear way down:
+    correctly_guessed:
+    - delete everything down to the bottom of the page
+    incorrectly_guessed:
+    - 'delete everything below the cursor: clear down'
+  clone that:
+    correctly_guessed:
+    - duplicate my selection
+    incorrectly_guessed:
+    - 'copy and paste my selection: copy that or paste that'
+  copy that:
+    correctly_guessed:
+    - copy my selection
+    - copy
+    - control copy
+    incorrectly_guessed: []
+  cut word:
+    correctly_guessed:
+    - cut this word
+    incorrectly_guessed: []
+  file save:
+    correctly_guessed:
+    - save the file
+    - save
+    incorrectly_guessed: []
+  go down:
+    correctly_guessed:
+    - go down a line
+    - move the cursor down
+    incorrectly_guessed: []
+  go line end:
+    correctly_guessed:
+    - move the cursor to the end of the line
+    - go to the end of this line
+    incorrectly_guessed: []
+  go way down:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'move the cursor to the bottom of the page: go bottom'
+    - 'go to the bottom of the text: go bottom, go way down'
+  go word left:
+    correctly_guessed:
+    - go one word to the left
+    - move the curser one word left
+    incorrectly_guessed: []
+  help alphabet:
+    correctly_guessed:
+    - help me find the alphabet
+    - talon's alphabet
+    incorrectly_guessed:
+    - 'show me the names for the letters: show alphabet, help alphabet'
+  help arrows:
+    correctly_guessed:
+    - show list of arrow keys
+    incorrectly_guessed:
+    - 'commands for arrow keys: go left, go right, go up, go down'
+    - 'show talon files for arrow keys: bar explore'
+  help modifier:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the help dialog for control and command keys: help context, help active'
+    - 'help me with modifier keys: help modifiers'
+    - 'commands for modifiers: Please, go view, go way left, go way right, go way
+      up, go way down, go way down, go top, go top, go page down, go page up, go page
+      down, go page up, go way up, go way down, go way down, go way down, go way down,
+      go way right, go way right, go way right, go way left, go way left, go way left,
+      go way left, go way left, go way right, go way left, go way left, go way right,
+      go way right, go way right, go way right, go way right, go way right, go way
+      right, go way right, go way right, go way right, go way right, go way right,
+      go way right, go way right, go way right, go way right, go way right, go way
+      right, go way right, go way right, go way right, go way right, go way right,
+      go way right, go way right, go way right, go way right, go way right, go way
+      right, go way right, go way right, go way right, go way right, go way right,
+      go way right, go way right, go way right, go way right, go way right, go way
+      right, go way right, go way right, go way right, go way right, go way right,
+      go way right, go way right, go way right, go way right, go way right, go way
+      right, go way right, go way right, go way right, go way right, go way right,
+      go way right, go way right, go way right, go way right, go way right, go way
+      right, go way right, go way right, go way right, go way right, go way right,
+      go way right, go way right, go way right, go way right, go way right, go way
+      right, go way right, go way right, go way right, go way right, go way right,
+      go way right, go way right, go way right, go way right, go way right, go way
+      right, go way right, go way right, go way right, go way right, go way right,
+      go'
+  select all:
+    correctly_guessed:
+    - select all text
+    - select everything
+    incorrectly_guessed: []
+  undo that:
+    correctly_guessed:
+    - undo
+    - undo what i just did
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    - exit
+    incorrectly_guessed: []
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zoom in:
+    correctly_guessed:
+    - make the items on the display bigger
+    incorrectly_guessed:
+    - 'zoom: zoom in, zoom out, zoom reset'
