@@ -53,37 +53,32 @@ def calculate_aggregate_percentages_and_std(percentages):
         aggregate_percentages[test_base_name] = mean_percentage
     return aggregate_percentages, std_devs
 
-def convert_test_names_to_integers(test_names):
-    integer_values = []
+def extract_test_numbers(test_names):
+    numbers = []
     for name in test_names:
-        match = re.search(r'\d+', name)
+        match = re.search(r'(\d+)', name)
         if match:
-            value = int(match.group()) / 100  # Convert matched number to float (e.g., 100 becomes 1.0)
-        else:
-            value = 0
-        integer_values.append(value)
-    
-    return integer_values
+            numbers.append(int(match.group(1)))
+    return numbers
 
-def plot_percentages_with_std_and_integers(aggregate_percentages, std_devs):
-    plt.style.use('bmh')  # Apply the solarize_light2 style sheet
+def plot_percentages_with_std(aggregate_percentages, std_devs):
+    plt.style.use('bmh')  # Apply the fivethirtyeight style sheet
 
     test_names = list(aggregate_percentages.keys())
     percent_correct = [aggregate_percentages[test] * 100 for test in test_names]
     error_bars = [std_devs[test] * 100 for test in test_names]
-    integer_x_values = convert_test_names_to_integers(test_names)
+    test_numbers = extract_test_numbers(test_names)
     
-    # Sort the data points by integer_x_values
-    sorted_indices = np.argsort(integer_x_values)
-    integer_x_values = np.array(integer_x_values)[sorted_indices]
+    # Sort the data points by test_numbers
+    sorted_indices = np.argsort(test_numbers)
+    test_numbers = np.array(test_numbers)[sorted_indices]
     percent_correct = np.array(percent_correct)[sorted_indices]
     error_bars = np.array(error_bars)[sorted_indices]
     
     plt.figure(figsize=(10, 6))
-    plt.errorbar(integer_x_values, percent_correct, yerr=error_bars, fmt='-o', capsize=5)
-    plt.xlabel('Model Temperature')
+    plt.errorbar(test_numbers, percent_correct, yerr=error_bars, fmt='-o', capsize=5)
+    plt.xlabel('Number of Commands')
     plt.ylabel('Percent Correctly Guessed')
-    #plt.title('Impact of Model Temperature on Nova accuracy')
     plt.ylim(0, 100)
     plt.show()
 
@@ -106,8 +101,8 @@ def main():
     print("Aggregate Percentages:", aggregate_percentages)
     print("Standard Deviations:", std_devs)
     
-    # Plot the aggregate percentages with standard deviation error bars and integer x-axis
-    plot_percentages_with_std_and_integers(aggregate_percentages, std_devs)
+    # Plot the aggregate percentages with standard deviation error bars and test numbers on the x-axis
+    plot_percentages_with_std(aggregate_percentages, std_devs)
 
 if __name__ == "__main__":
     main()

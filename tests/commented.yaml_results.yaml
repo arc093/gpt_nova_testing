@@ -1,0 +1,1122 @@
+commented_run0:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed:
+    - show the debug panel
+    - on the side bar, show debug
+    incorrectly_guessed:
+    - 'debug: window reload'
+    - 'debug window: window close'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: symbol hunt'
+    - 'help me find: please'
+    - 'search in vscode: symbol hunt: user.vscode("workbench.action.gotoSymbol"),
+      symbol hunt all: user.vscode("workbench.action.showAllSymbols")'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Toggle the sidebar
+    - bar show
+    - bar hide
+    incorrectly_guessed:
+    - 'Hide the sidebar: bar switch, bar close, bar hide'
+    - 'Show the sidebar: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+    - 'bar display: bar display'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    - Show the testing window
+    - Open testing
+    - Show the tests
+    incorrectly_guessed: []
+  close other tabs:
+    correctly_guessed:
+    - close all of the other tabs besides the current bad
+    - hide the other tabs
+    - close all of the other tabs
+    incorrectly_guessed: []
+  panel switch:
+    correctly_guessed:
+    - toggle the bottom panel
+    - panel show
+    - panel hide
+    incorrectly_guessed:
+    - 'show the bottom panel: bar switch'
+    - 'hide the bottom panel: bar switch'
+  panel terminal:
+    correctly_guessed:
+    - toggle the terminal panel
+    - show the terminal
+    incorrectly_guessed:
+    - 'hide the terminal: bar switch, panel switch, close tabs way right, close tabs
+      way left, close all tabs, close other tabs'
+    - 'terminal toggle: panel terminal, panel switch'
+  show settings folder:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the folder settings: show settings folder, show settings folder json'
+    - 'open folder settings: show settings folder, show settings folder json'
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    - exit
+    incorrectly_guessed: []
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zen switch:
+    correctly_guessed:
+    - switch to zen mode
+    - toggle the zen display
+    - zen mode activate
+    incorrectly_guessed: []
+commented_run1:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed:
+    - on the side bar, show debug
+    incorrectly_guessed:
+    - 'show the debug panel: bar run, panel control, panel output, panel problems,
+      panel switch, panel terminal, show settings, show settings json, show settings
+      folder, show settings folder json, show settings workspace, show settings workspace
+      json, show shortcuts, show shortcuts json, show snippets, snip (last | previous),
+      snip next, centered switch, fullscreen switch, theme switch, wrap switch, zen
+      switch, file hunt, file hunt (pace | paste), file copy name, file copy path,
+      file copy local [path], file create sibling, file create, file create relative,
+      file create root, file rename, file move, file clone, file delete, file open
+      folder, file reveal, save ugly, close other tabs, close all tabs, close tabs
+      way right, close tabs way left, fold that, unfold that, fold all, unfold all,
+      fold comments, fold one, fold two, fold three, fold four, fold five, fold six,
+      fold seven'
+    - 'debug: window reload'
+    - 'debug window: window reload'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: file hunt'
+    - 'help me find: please, go view, symbol hunt, symbol hunt all, file hunt, file
+      hunt pace, file hunt paste, fold that, unfold that, fold all, unfold all, fold
+      comments, fold one, fold two, fold three, fold four, fold five, fold six, fold
+      seven'
+    - 'search in vscode: symbol hunt'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    - bar show
+    - bar hide
+    incorrectly_guessed:
+    - 'Show the sidebar: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+    - 'bar display: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    - Show the testing window
+    - Open testing
+    incorrectly_guessed:
+    - 'Show the tests: bar test, bar switch, bar search, bar source, bar run, bar
+      outline, bar extensions, bar explore, fold one, fold two, fold three, fold four,
+      fold five, fold six, fold seven, fold comments, fold all, unfold all, unfold
+      that'
+  close other tabs:
+    correctly_guessed:
+    - close all of the other tabs besides the current bad
+    - hide the other tabs
+    - close all of the other tabs
+    incorrectly_guessed: []
+  panel switch:
+    correctly_guessed:
+    - toggle the bottom panel
+    - panel show
+    - panel hide
+    incorrectly_guessed:
+    - 'show the bottom panel: bar switch, panel switch'
+    - 'hide the bottom panel: panel switch, panel terminal, bar switch'
+  panel terminal:
+    correctly_guessed:
+    - toggle the terminal panel
+    incorrectly_guessed:
+    - 'show the terminal: bar switch'
+    - 'hide the terminal: bar switch'
+    - 'terminal toggle: panel terminal: user.vscode("workbench.action.terminal.focus")
+      #switch to the terminal panel'
+  show settings folder:
+    correctly_guessed:
+    - open folder settings
+    incorrectly_guessed:
+    - 'show the folder settings: show settings folder, show settings folder json'
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    - exit
+    incorrectly_guessed: []
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zen switch:
+    correctly_guessed:
+    - switch to zen mode
+    - toggle the zen display
+    - zen mode activate
+    incorrectly_guessed: []
+commented_run2:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file reveal'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: panel control, panel output, panel problems, panel switch,
+      panel terminal'
+    - 'on the side bar, show debug: bar debug'
+    - 'debug: window reload'
+    - 'debug window: window reload'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: please'
+    - 'help me find: please, go view, file hunt'
+    - 'search in vscode: symbol hunt: user.vscode("workbench.action.gotoSymbol"),
+      symbol hunt all: user.vscode("workbench.action.showAllSymbols")'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    - bar hide
+    - bar display
+    incorrectly_guessed:
+    - 'Show the sidebar: bar explore'
+    - 'bar show: bar explore'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    - Show the testing window
+    - Open testing
+    incorrectly_guessed:
+    - 'Show the tests: bar test, bar switch'
+  close other tabs:
+    correctly_guessed:
+    - close all of the other tabs besides the current bad
+    - hide the other tabs
+    - close all of the other tabs
+    incorrectly_guessed: []
+  panel switch:
+    correctly_guessed:
+    - panel show
+    - panel hide
+    incorrectly_guessed:
+    - 'toggle the bottom panel: bar switch, panel switch'
+    - 'show the bottom panel: bar switch'
+    - 'hide the bottom panel: bar switch'
+  panel terminal:
+    correctly_guessed:
+    - toggle the terminal panel
+    - show the terminal
+    - terminal toggle
+    incorrectly_guessed:
+    - 'hide the terminal: bar switch'
+  show settings folder:
+    correctly_guessed:
+    - show the folder settings
+    - open folder settings
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    incorrectly_guessed:
+    - 'exit: close all tabs, window close'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zen switch:
+    correctly_guessed:
+    - switch to zen mode
+    - toggle the zen display
+    - zen mode activate
+    incorrectly_guessed: []
+commented_run3:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed:
+    - on the side bar, show debug
+    incorrectly_guessed:
+    - 'show the debug panel: panel switch'
+    - 'debug: window reload'
+    - 'debug window: window close'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: please, go view, symbol hunt, symbol hunt all, file hunt, file hunt
+      paste, file copy name, file copy path, file copy local path, file create sibling,
+      file create, file create relative, file create root, file rename, file move,
+      file clone, file delete, file open folder, file reveal, save ugly, close other
+      tabs, close all tabs, close tabs way right, close tabs way left, fold that,
+      unfold that, fold all, unfold all, fold comments, fold one, fold two, fold three,
+      fold four, fold five, fold six, fold seven'
+    - 'help me find: please'
+    - 'search in vscode: symbol hunt: user.vscode("workbench.action.gotoSymbol")'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    - bar show
+    incorrectly_guessed:
+    - 'Show the sidebar: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+    - 'bar hide: bar switch, bar switch: user.vscode("workbench.action.toggleSidebarVisibility")'
+    - 'bar display: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    - Show the testing window
+    - Open testing
+    incorrectly_guessed:
+    - 'Show the tests: symbol hunt test, bar test'
+  close other tabs:
+    correctly_guessed:
+    - close all of the other tabs besides the current bad
+    - hide the other tabs
+    - close all of the other tabs
+    incorrectly_guessed: []
+  panel switch:
+    correctly_guessed:
+    - toggle the bottom panel
+    - panel show
+    incorrectly_guessed:
+    - 'show the bottom panel: bar switch'
+    - 'hide the bottom panel: bar switch'
+    - 'panel hide: panel switch, panel terminal, panel control, panel problems or
+      show settings, show settings json, show settings folder, show settings folder
+      json, show settings workspace, show settings workspace json, show shortcuts,
+      show shortcuts json, show snippets'
+  panel terminal:
+    correctly_guessed:
+    - toggle the terminal panel
+    incorrectly_guessed:
+    - 'show the terminal: bar terminal'
+    - 'hide the terminal: bar switch, panel terminal'
+    - 'terminal toggle: panel terminal: user.vscode("workbench.action.terminal.focus")
+      #switch to the terminal panel'
+  show settings folder:
+    correctly_guessed:
+    - open folder settings
+    incorrectly_guessed:
+    - 'show the folder settings: show settings folder, show settings folder json'
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    - exit
+    incorrectly_guessed: []
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zen switch:
+    correctly_guessed:
+    - switch to zen mode
+    - toggle the zen display
+    - zen mode activate
+    incorrectly_guessed: []
+commented_run4:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed:
+    - on the side bar, show debug
+    incorrectly_guessed:
+    - 'show the debug panel: panel debug'
+    - 'debug: window reload'
+    - 'debug window: window reload, window close'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: file hunt, file hunt pace, file hunt paste'
+    - 'help me find: please'
+    - 'search in vscode: symbol hunt, file hunt'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    incorrectly_guessed:
+    - 'Show the sidebar: bar explore'
+    - 'bar show: bar explore, bar extensions, bar outline, bar run, bar search, bar
+      source, bar test, bar switch'
+    - 'bar hide: bar switch, bar explore, bar extensions, bar outline, bar run, bar
+      search, bar source, bar test, bar switch'
+    - 'bar display: bar explore'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    - Show the testing window
+    - Open testing
+    incorrectly_guessed:
+    - 'Show the tests: symbol hunt all'
+  close other tabs:
+    correctly_guessed:
+    - close all of the other tabs besides the current bad
+    - hide the other tabs
+    - close all of the other tabs
+    incorrectly_guessed: []
+  panel switch:
+    correctly_guessed:
+    - toggle the bottom panel
+    - panel show
+    - panel hide
+    incorrectly_guessed:
+    - 'show the bottom panel: bar switch'
+    - 'hide the bottom panel: bar switch, panel switch, close other tabs, close all
+      tabs, close tabs way right, close tabs way left'
+  panel terminal:
+    correctly_guessed:
+    - toggle the terminal panel
+    - show the terminal
+    - terminal toggle
+    incorrectly_guessed:
+    - 'hide the terminal: bar switch'
+  show settings folder:
+    correctly_guessed:
+    - show the folder settings
+    incorrectly_guessed:
+    - 'open folder settings: show settings folder, show settings folder json'
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    - exit
+    incorrectly_guessed: []
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zen switch:
+    correctly_guessed:
+    - switch to zen mode
+    - toggle the zen display
+    - zen mode activate
+    incorrectly_guessed: []
+uncommented_run0:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file reveal'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed:
+    - show the debug panel
+    incorrectly_guessed:
+    - 'on the side bar, show debug: bar debug, bar run'
+    - 'debug: window reload'
+    - 'debug window: window reload, window close'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: file hunt, file hunt pace, file hunt paste'
+    - 'help me find: please'
+    - 'search in vscode: symbol hunt'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    incorrectly_guessed:
+    - 'switch to the source view: bar source, bar switch'
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    - bar show
+    - bar hide
+    incorrectly_guessed:
+    - 'Show the sidebar: bar explore'
+    - 'bar display: bar explore'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    - Show the testing window
+    - Open testing
+    - Show the tests
+    incorrectly_guessed: []
+  close other tabs:
+    correctly_guessed:
+    - close all of the other tabs besides the current bad
+    - hide the other tabs
+    - close all of the other tabs
+    incorrectly_guessed: []
+  panel switch:
+    correctly_guessed:
+    - toggle the bottom panel
+    - panel show
+    - panel hide
+    incorrectly_guessed:
+    - 'show the bottom panel: bar switch'
+    - 'hide the bottom panel: bar switch'
+  panel terminal:
+    correctly_guessed:
+    - toggle the terminal panel
+    - show the terminal
+    incorrectly_guessed:
+    - 'hide the terminal: bar switch'
+    - 'terminal toggle: bar switch: user.vscode("workbench.action.toggleSidebarVisibility")'
+  show settings folder:
+    correctly_guessed:
+    - open folder settings
+    incorrectly_guessed:
+    - 'show the folder settings: show settings folder, show settings folder json'
+  window close:
+    correctly_guessed:
+    - close this window
+    - exit out of this window
+    - exit
+    incorrectly_guessed:
+    - 'close: close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs, close all tabs, close all tabs, close all tabs, close
+      all tabs, close all tabs,'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zen switch:
+    correctly_guessed:
+    - switch to zen mode
+    - toggle the zen display
+    - zen mode activate
+    incorrectly_guessed: []
+uncommented_run1:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the debug panel: panel terminal'
+    - 'on the side bar, show debug: bar debug, bar run'
+    - 'debug: window reload'
+    - 'debug window: window reload'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: please'
+    - 'help me find: please'
+    - 'search in vscode: symbol hunt: user.vscode("workbench.action.gotoSymbol")'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    - bar display
+    incorrectly_guessed:
+    - 'Show the sidebar: bar explore'
+    - 'bar show: bar explore, bar extensions, bar outline, bar run, bar search, bar
+      source, bar test, bar switch'
+    - 'bar hide: bar switch, bar explore, bar extensions, bar outline, bar run, bar
+      search, bar source, bar test, bar switch'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    - Show the testing window
+    incorrectly_guessed:
+    - 'Open testing: bar test: user.vscode("workbench.view.testing.focus") #open the
+      sidebar testing window'
+    - 'Show the tests: go view tests'
+  close other tabs:
+    correctly_guessed:
+    - close all of the other tabs besides the current bad
+    - hide the other tabs
+    - close all of the other tabs
+    incorrectly_guessed: []
+  panel switch:
+    correctly_guessed:
+    - toggle the bottom panel
+    - panel show
+    - panel hide
+    incorrectly_guessed:
+    - 'show the bottom panel: bar switch'
+    - 'hide the bottom panel: bar switch, panel switch, bar switch: user.vscode("workbench.action.toggleSidebarVisibility"),
+      user.vscode("workbench.action.togglePanel"), user.vscode("workbench.action.toggleSidebarVisibility")'
+  panel terminal:
+    correctly_guessed:
+    - toggle the terminal panel
+    incorrectly_guessed:
+    - 'show the terminal: bar terminal'
+    - 'hide the terminal: bar switch'
+    - 'terminal toggle: window close'
+  show settings folder:
+    correctly_guessed:
+    - show the folder settings
+    - open folder settings
+    incorrectly_guessed: []
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit
+    incorrectly_guessed:
+    - 'exit out of this window: close all tabs, close all tabs way right, close all
+      tabs way left'
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zen switch:
+    correctly_guessed:
+    - switch to zen mode
+    - toggle the zen display
+    - zen mode activate
+    incorrectly_guessed: []
+uncommented_run2:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed:
+    - on the side bar, show debug
+    incorrectly_guessed:
+    - 'show the debug panel: bar switch'
+    - 'debug: window reload, window close, please <user.text>, go view <user.text>,
+      bar explore, bar extensions, bar outline, bar run, bar search, bar source, bar
+      test, bar switch, symbol hunt <user.text>, symbol hunt all <user.text>, panel
+      control, panel output, panel problems, panel switch, panel terminal, focus editor,
+      show settings, show settings json, show settings folder, show settings folder
+      json, show settings workspace, show settings workspace json, show shortcuts,
+      show shortcuts json, show snippets, snip last, snip previous, snip next, centered
+      switch, fullscreen switch, theme switch, wrap switch, zen switch, file hunt
+      <user.text>, file hunt pace, file copy name, file copy path, file copy local
+      path, file create sibling, file create, file create relative, file create root,
+      file rename, file move, file clone, file delete, file open folder, file reveal,
+      save ugly, close other tabs, close all tabs, close tabs way right, close tabs
+      way left, fold that, unfold that, fold all, unfold all, fold comments, fold
+      one, fold two, fold three, fold four, fold five, fold six, fold seven'
+    - 'debug window: window reload, window close'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: symbol hunt'
+    - 'help me find: please'
+    - 'search in vscode: symbol hunt'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    - bar hide
+    - bar display
+    incorrectly_guessed:
+    - 'Show the sidebar: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+    - 'bar show: bar explore, bar extensions, bar outline, bar run, bar search, bar
+      source, bar test, bar switch'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    - Show the testing window
+    - Open testing
+    incorrectly_guessed:
+    - 'Show the tests: symbol hunt all'
+  close other tabs:
+    correctly_guessed:
+    - close all of the other tabs
+    incorrectly_guessed:
+    - 'close all of the other tabs besides the current bad: close other tabs or close
+      all tabs'
+    - 'hide the other tabs: close other tabs, close all tabs, close tabs way right,
+      close tabs way left'
+  panel switch:
+    correctly_guessed:
+    - toggle the bottom panel
+    - panel show
+    - panel hide
+    incorrectly_guessed:
+    - 'show the bottom panel: bar switch'
+    - 'hide the bottom panel: bar switch'
+  panel terminal:
+    correctly_guessed:
+    - toggle the terminal panel
+    - terminal toggle
+    incorrectly_guessed:
+    - 'show the terminal: bar terminal'
+    - 'hide the terminal: bar switch'
+  show settings folder:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the folder settings: show settings folder, show settings folder json'
+    - 'open folder settings: show settings folder, show settings folder json'
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    - exit
+    incorrectly_guessed: []
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zen switch:
+    correctly_guessed:
+    - switch to zen mode
+    - toggle the zen display
+    - zen mode activate
+    incorrectly_guessed: []
+uncommented_run3:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed:
+    - on the side bar, show debug
+    incorrectly_guessed:
+    - 'show the debug panel: panel switch'
+    - 'debug: window reload'
+    - 'debug window: window reload'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: file hunt, file hunt paste, file hunt pace'
+    - 'help me find: please'
+    - 'search in vscode: symbol hunt: user.vscode("workbench.action.gotoSymbol")'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    incorrectly_guessed:
+    - 'Show the sidebar: bar explore'
+    - 'bar show: bar explore'
+    - 'bar hide: bar switch, bar switch: user.vscode("workbench.action.toggleSidebarVisibility")'
+    - 'bar display: bar explore'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    - Show the testing window
+    incorrectly_guessed:
+    - 'Open testing: bar test, go view testing'
+    - 'Show the tests: symbol hunt all'
+  close other tabs:
+    correctly_guessed:
+    - hide the other tabs
+    - close all of the other tabs
+    incorrectly_guessed:
+    - 'close all of the other tabs besides the current bad: close other tabs, close
+      all tabs'
+  panel switch:
+    correctly_guessed:
+    - toggle the bottom panel
+    - panel show
+    - panel hide
+    incorrectly_guessed:
+    - 'show the bottom panel: bar switch'
+    - 'hide the bottom panel: bar switch'
+  panel terminal:
+    correctly_guessed:
+    - toggle the terminal panel
+    incorrectly_guessed:
+    - 'show the terminal: bar terminal, panel terminal, file open folder, file reveal'
+    - 'hide the terminal: bar switch'
+    - 'terminal toggle: bar switch'
+  show settings folder:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the folder settings: show settings folder, show settings folder json'
+    - 'open folder settings: show settings folder, show settings folder json, show
+      settings workspace, show settings workspace json, show settings folder json,
+      show settings json, show settings, how do i open folder settings'
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    - exit
+    incorrectly_guessed: []
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zen switch:
+    correctly_guessed:
+    - switch to zen mode
+    - toggle the zen display
+    - zen mode activate
+    incorrectly_guessed: []
+uncommented_run4:
+  bar explore:
+    correctly_guessed:
+    - show the file explorer
+    - Explore bar
+    - Explore files
+    incorrectly_guessed:
+    - 'Show me the files in VS code: file hunt'
+  bar extensions:
+    correctly_guessed:
+    - Show me the extension store
+    - Show all the extensions
+    - On the side panel, click the extensions
+    - On the side bar, click the extensions
+    incorrectly_guessed: []
+  bar outline:
+    correctly_guessed:
+    - show the outline
+    incorrectly_guessed: []
+  bar run:
+    correctly_guessed:
+    - on the side bar, show debug
+    incorrectly_guessed:
+    - 'show the debug panel: bar run, panel control, panel output, panel problems,
+      panel terminal, panel switch, panel terminal, focus editor, panel switch, panel
+      terminal, panel control, panel output, panel problems, panel terminal, panel
+      switch, panel terminal, focus editor'
+    - 'debug: window reload'
+    - 'debug window: window reload'
+    - 'run window: window reload'
+  bar search:
+    correctly_guessed:
+    - open the search
+    incorrectly_guessed:
+    - 'search: please'
+    - 'help me find: please'
+    - 'search in vscode: file hunt'
+  bar source:
+    correctly_guessed:
+    - show the git panel
+    - show the source management
+    - source
+    - switch to the source view
+    incorrectly_guessed: []
+  bar switch:
+    correctly_guessed:
+    - Hide the sidebar
+    - Toggle the sidebar
+    - bar hide
+    incorrectly_guessed:
+    - 'Show the sidebar: bar explore'
+    - 'bar show: bar explore, bar extensions, bar outline, bar run, bar search, bar
+      source, bar test, bar switch'
+    - 'bar display: bar explore, bar extensions, bar outline, bar run, bar search,
+      bar source, bar test, bar switch'
+  bar test:
+    correctly_guessed:
+    - Focus the testing panel
+    - Show the testing window
+    - Open testing
+    - Show the tests
+    incorrectly_guessed: []
+  close other tabs:
+    correctly_guessed:
+    - close all of the other tabs besides the current bad
+    - hide the other tabs
+    - close all of the other tabs
+    incorrectly_guessed: []
+  panel switch:
+    correctly_guessed:
+    - toggle the bottom panel
+    - hide the bottom panel
+    - panel show
+    - panel hide
+    incorrectly_guessed:
+    - 'show the bottom panel: bar switch'
+  panel terminal:
+    correctly_guessed:
+    - toggle the terminal panel
+    incorrectly_guessed:
+    - 'show the terminal: bar switch, panel terminal, or bar switch, panel terminal'
+    - 'hide the terminal: bar switch'
+    - 'terminal toggle: bar switch'
+  show settings folder:
+    correctly_guessed: []
+    incorrectly_guessed:
+    - 'show the folder settings: show settings folder, show settings folder json'
+    - 'open folder settings: show settings folder, show settings folder json, show
+      settings folder$: user.vscode("workbench.action.openFolderSettings") #open the
+      folder settings'
+  window close:
+    correctly_guessed:
+    - close this window
+    - close
+    - exit out of this window
+    - exit
+    incorrectly_guessed: []
+  window reload:
+    correctly_guessed:
+    - reload
+    - reload this window
+    - refresh the window
+    - update what's on the window
+    incorrectly_guessed: []
+  zen switch:
+    correctly_guessed:
+    - switch to zen mode
+    - toggle the zen display
+    - zen mode activate
+    incorrectly_guessed: []

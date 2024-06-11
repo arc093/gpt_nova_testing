@@ -57,12 +57,11 @@ def plot_percentages_with_std(aggregate_percentages, std_devs):
     test_names = list(aggregate_percentages.keys())
     percent_correct = [aggregate_percentages[test] * 100 for test in test_names]
     error_bars = [std_devs[test] * 100 for test in test_names]
-    
+    plt.style.use('bmh')
     plt.figure(figsize=(10, 6))
-    plt.errorbar(test_names, percent_correct, yerr=error_bars, fmt='-o', capsize=5, color='blue')
-    plt.xlabel('Test Name')
+    plt.bar(test_names, percent_correct, yerr=error_bars, capsize=5, alpha=0.7)
+    plt.xlabel('Test')
     plt.ylabel('Percent Correctly Guessed')
-    plt.title('Percent Correctly Guessed Commands by Test with Standard Deviation')
     plt.ylim(0, 100)
     plt.show()
 

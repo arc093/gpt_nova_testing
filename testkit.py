@@ -116,7 +116,7 @@ def main():
                     model_settings = test["model_settings"]
                     prompt = model_settings["model_prompt"] + f"{command_list}"
                     results[f"{test_name}_results_run{run}"] = {}
-                    sleep_time = 0.1  # Initial sleep time
+                    sleep_time = 5 # Initial sleep time
                     for intended_command, spoken_forms in test["test_commands"].items():
                         correctly_guessed = []
                         incorrectly_guessed = []
@@ -127,7 +127,7 @@ def main():
                                 result = gpt_query(prompt, f'how do i {spoken_form}?', model_settings)
                                 if result == intended_command:
                                     correctly_guessed.append(spoken_form)
-                                    sleep_time = max(2, sleep_time / 2)  # Decrease sleep time if successful
+                                    sleep_time = max(5, sleep_time / 2)  # Decrease sleep time if successful
                                 else:
                                     incorrectly_guessed.append(f"{spoken_form}: {result}")
                                     sleep_time = min(10, sleep_time * 2)  # Increase sleep time if incorrect
